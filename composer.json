@@ -14,7 +14,7 @@
     },
     "extra": {
         "component": {
-            "id": "webchat-web",
+            "id": "wechat-web",
             "target": "laravel-socialite-providers/wechat-web.git",
             "path": "WeChatWeb",
             "entry": "src/Provider.php"

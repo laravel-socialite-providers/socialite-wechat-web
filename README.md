@@ -1,4 +1,6 @@
-# WeChat Web OAuth2 Provider for Laravel Socialite
+---
+title: "WeChat Web"
+---
 
 ## 1. Installation
 
