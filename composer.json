@@ -1,5 +1,5 @@
 {
-    "name": "laravel-socialite-providers/wechat-web",
+    "name": "laravel-socialite-providers/socialite-wechat-web",
     "description": "WeChat Web OAuth2 Provider for Laravel Socialite",
     "version": "0.1.0",
     "license": "MIT",
@@ -15,7 +15,7 @@
     "extra": {
         "component": {
             "id": "wechat-web",
-            "target": "laravel-socialite-providers/wechat-web.git",
+            "target": "laravel-socialite-providers/socialite-wechat-web.git",
             "path": "WeChatWeb",
             "entry": "src/Provider.php"
         }

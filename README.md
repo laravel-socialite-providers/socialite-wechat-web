@@ -6,7 +6,7 @@ title: "WeChat Web"
 
 ```bash
 // This assumes that you have composer installed globally
-composer require laravel-socialite-providers/wechat-web
+composer require laravel-socialite-providers/socialite-wechat-web
 ```
 
 ## 2. Service Provider
