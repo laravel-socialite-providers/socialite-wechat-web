@@ -145,6 +145,14 @@ $accessTokenResponseBody = $user->accessTokenResponseBody;
 $user = Socialite::driver('wechat_web')->scopes('unionid')->user();
 ```
 
+### Retrieving User Details From A Token (OAuth2)
+
+If you already have a valid access token for a user, you can retrieve their details using the `userFromToken` method, but Tencent breaks OAuth2, need set "openid" first:
+
+```php
+$user = Socialite::driver('wechat_web')->setOpenId($openId)->userFromToken($token);
+```
+
 #### Reference
 
 * [Laravel Socialite Docs](https://github.com/laravel/socialite)

@@ -108,5 +108,6 @@ class Provider extends AbstractProvider
     public function setOpenId($openId)
     {
         $this->openId = $openId;
+        return $this;
     }
 }
